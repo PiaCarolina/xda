@@ -1,0 +1,33 @@
+.main-section {
+  grid-column: 1 / 13 ;
+  grid-row: 3 / 4;
+  padding: 50px;
+}
+
+.main-section-h1 {
+  font-family: $standard;
+  color: $smoky-black;
+  font-size: $xx-large;
+  font-weight: $bold;
+}
+
+.main-section-text {
+  font-family: $raleway;
+  color:$granite-gray;
+  font-size: $small;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: $regular;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 0px;
+  color: $smoky-black;
+  border: 1px solid $smoky-black;
+  font-size: $small;
+}
+
+.btn:hover {
+  border: 1px solid $quick-silver;
+}

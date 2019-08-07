@@ -1,0 +1,18 @@
+nav {
+  grid-column: 1 / 13 ;
+  grid-row: 1 / 2;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.nav-link {
+  font-weight: $bold;
+  font-family: $raleway;
+  color: $smoky-black;
+}

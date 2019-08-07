@@ -1,0 +1,59 @@
+.footer {
+  background-color: $smoky-black;
+  color: $white;
+  grid-column: 1 / 13 ;
+  grid-row: 4 / 5;
+}
+
+.footer__content{
+  padding: 30px 50px;
+}
+
+.footer__title {
+  font-family: $standard;
+  font-size: $xx-large;
+  font-weight: $bold;
+}
+
+.footer__paragraph {
+  font-family: $standard;
+  font-size: $small;
+  font-weight: $regular;
+}
+
+.footer__Newsletter {
+  font-family: $raleway;
+  font-size: $x-small;
+  color: $granite-gray;
+  text-align: left;
+}
+
+.footer__suscribir {
+  color: $smoky-black;
+  background-color: $white;
+  width: auto;
+  height: 50px;
+  position: absolute;
+    left: 265px;
+    bottom: -109px;
+    width: 170px;
+
+}
+
+.footer__suscribir__txt {
+  font-family: $standard;
+  font-size: $x-large;
+  font-weight: $bold;
+  margin: auto;
+  text-align: center;
+
+}
+
+.rotate {
+  -moz-transform: rotate(90deg);
+  /* FF3.5+ */
+  -o-transform: rotate(90deg);
+  /* Opera 10.5 */
+  -webkit-transform: rotate(90deg);
+  /* Saf3.1+, Chrome */
+}
